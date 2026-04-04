@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>W.M. Dulanja Samapath | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-logo">DS<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#graphic">Graphic</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">DULANJA</div>
+    <div class="hero-content">
+      <span class="hero-tag">Available for work</span>
+      <h1 class="hero-title">
+        W.M. Dulanja<br/><span class="accent">Samapath</span>
+      </h1>
+      <p class="hero-sub" id="hero-typed"></p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-outline">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Who I Am</h2>
+          <p>I'm <strong>Dulanja Samapath</strong>, a passionate developer and creative thinker from Sri Lanka. I love building digital experiences that are both beautiful and functional.</p>
+          <p>I combine technical skills with a strong eye for design to deliver projects that make an impact. Always learning, always building.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num" data-target="10">0</span><span class="stat-label">Projects Done</span></div>
+            <div class="stat"><span class="stat-num" data-target="4">0</span><span class="stat-label">Years Experience</span></div>
+            <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Happy Clients</span></div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-avatar">
+            <div class="avatar-wrapper" id="avatar-wrapper">
+              <!-- Profile picture or initials injected by JS -->
+              <div class="avatar-placeholder" id="avatar-placeholder">DS</div>
+            </div>
+          </div>
+          <div class="avatar-name" id="avatar-name">W.M. Dulanja Samapath</div>
+          <div class="about-info-list">
+            <div class="info-row"><span>Name</span><strong>W.M. Dulanja Samapath</strong></div>
+            <div class="info-row"><span>Location</span><strong>Sri Lanka 🇱🇰</strong></div>
+            <div class="info-row"><span>Status</span><strong class="green-dot">Open to Work</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section dark-section" id="skills">
+    <div class="container">
+      <div class="section-label light">02 — Skills</div>
+      <h2 class="section-title light">What I Do</h2>
+      <div class="skills-grid" id="skills-grid">
+        <!-- Skills are injected by JS from data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-label">03 — Education</div>
+      <h2 class="section-title">My Journey</h2>
+      <div class="education-timeline" id="education-timeline">
+        <!-- Education injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- GRAPHIC WORK -->
+  <section class="section dark-section" id="graphic">
+    <div class="container">
+      <div class="section-label light">04 — Graphic Work</div>
+      <h2 class="section-title light">Design Portfolio</h2>
+      <div class="graphic-grid" id="graphic-grid">
+        <!-- Graphic work injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">05 — Projects</div>
+      <h2 class="section-title">My Work</h2>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Projects are injected by JS from data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section dark-section" id="contact">
+    <div class="container contact-container">
+      <div class="section-label light">06 — Contact</div>
+      <h2 class="section-title light">Let's Talk</h2>
+      <p class="contact-sub">Have a project in mind? Let's build something great together.</p>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <input type="text" id="cf-name" placeholder="Your Name" required />
+          <input type="email" id="cf-email" placeholder="Your Email" required />
+        </div>
+        <input type="text" id="cf-subject" placeholder="Subject" required />
+        <textarea id="cf-message" placeholder="Your Message..." rows="5" required></textarea>
+        <button type="submit" class="btn-primary">Send Message ✉</button>
+        <div id="form-status" class="form-status"></div>
+      </form>
+      <div class="social-links">
+        <a href="#" id="link-github" target="_blank">GitHub</a>
+        <a href="#" id="link-linkedin" target="_blank">LinkedIn</a>
+        <a href="#" id="link-email">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> W.M. Dulanja Samapath — Designed & Built with ❤</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
