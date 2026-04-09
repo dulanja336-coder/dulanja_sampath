@@ -13,7 +13,7 @@ const PORTFOLIO_DATA = {
   ],
 
   github:   "https://github.com/your-username",
-  linkedin: "https://linkedin.com/in/your-profile",
+  linkedin: "https://www.linkedin.com/in/dulanja-sampath-374151400/",
   email:    "dulanja336@gmail.com",
 
   // Profile picture URL — replace with your own image URL or base64
