@@ -19,7 +19,7 @@ const PORTFOLIO_DATA = {
   // Profile picture URL — replace with your own image URL or base64
   // Example: profilePic: "assets/profile.jpg"
   // Leave empty string "" to show initials fallback
-  profilePic: "",
+  profilePic: "profile.jpeg",
 
   stats: {
     projects: 0,
